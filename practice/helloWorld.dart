@@ -32,8 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {     // container<element type
     return Scaffold(
       appBar:AppBar(title:Text(widget.title)),
       body:Center(
-        child:Column(
-	  mainAxisAlignment:MainAxisAlignment.center, // start, end, center, space between, space evently
+        child:Column(                                 // or Row
+	  mainAxisAlignment:MainAxisAlignment.center, // start, end, center, space between, space evently 
           children:<Widget>[
             Text('You have pushed the button this many times:'),
 	    Text('$_counter',style:Theme.of(context).textTheme.headline4)
