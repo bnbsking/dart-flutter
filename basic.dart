@@ -105,4 +105,9 @@ void main() {
   //dict function
   void main() => print(birthday(name:'John',day:22));
   birthday({String name='Amy', int month, int day}) => "${name}'s birthday is $month/$day."
+    
+  //final: can not change. can be variable
+  //const: can not change. can not be variable
+  //e.g. int a=5; final b=a; //(O)
+  //e.g. int a=5; final b=a; //(X) 
 }
