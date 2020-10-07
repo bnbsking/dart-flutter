@@ -102,4 +102,7 @@ void main() {
   introduction();
   print("After introduction");
   
+  //dict function
+  void main() => print(birthday(name:'John',day:22));
+  birthday({String name='Amy', int month, int day}) => "${name}'s birthday is $month/$day."
 }
